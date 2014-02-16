@@ -48,9 +48,7 @@ To see attribute you must create a predefinite attribute named ’Taglia’ for 
 
 == Screenshots ==
 
-/trunk/alterinventory.jpg
-
-/alterinventory.jpg
+1.
 
 == Changelog ==
 
