@@ -48,7 +48,7 @@ To see attribute you must create a predefinite attribute named ’Taglia’ for 
 
 == Screenshots ==
 
-1.
+1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif)
 
 == Changelog ==
 
