@@ -57,11 +57,10 @@ http://www.altertech.it/woocommerce-alter-inventory/images/alterinventory.jpg
 
 == Featured ==
 
-Ordered list:
 
-1. Some feature
-2. Another feature
-3. Something else about the plugin
+1. View full inventory in front-end
+2. Add your order for inventory
+3. View attribute for variations
 
 = Support =
 
