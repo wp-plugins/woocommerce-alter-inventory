@@ -48,6 +48,8 @@ To see attribute you must create a predefinite attribute named ’Taglia’ for 
 
 == Screenshots ==
 
+1.
+
 /alterinventory.jpg
 
 == Changelog ==
