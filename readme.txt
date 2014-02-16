@@ -48,7 +48,7 @@ To see attribute you must create a predefinite attribute named ’Taglia’ for 
 
 == Screenshots ==
 
-alterinventory.jpg
+http://www.altertech.it/woocommerce-alter-inventory/images/alterinventory.jpg
 
 == Changelog ==
 
