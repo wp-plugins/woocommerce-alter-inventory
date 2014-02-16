@@ -182,9 +182,8 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
 								</tbody>
 							</table>
                             <style > 
-								#header { display:none; }
-								.hentry img { height: auto; max-width: 35%;}
-          </style>
+							.hentry img { height: auto; max-width: 35%;}
+                             </style>
                             
                             <h2>PRODOTTI</h2>
                             
