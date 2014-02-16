@@ -1,6 +1,6 @@
 
 === Alter Inventory - Woocommerce Plugin ===
-Contributors: Bigbabert, Mirko G.
+Contributors: Bigbabert
 Donate link: http://www.altertech.it/
 Tags: woocommerce, inventory, product variations
 Requires at least: 3.6.1
