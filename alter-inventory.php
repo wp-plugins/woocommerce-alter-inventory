@@ -84,21 +84,6 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
 				//	Search Product 			
 
 ?> 
-<div>
-<h1 align="center"> ALTER INVENTORY MANAGEMENT WOOCOMMERCE </h1>
-<div  style="width:400px; display:none;" >
-<form id="posts-filter" method="get" action="http://www.dev.web.altertech.it/pinup/" >
-<p class="search-box">
-<label class="screen-reader-text" for="post-search-input">GESTISCI INVENTARIO:</label>
-<input id="post-search-input" type="search" value="" name="s">
- <input id="search-submit" class="button" type="submit" value="Cerca Prodotto" style="background-color:#09F" name=""> <input id="search-submit" class="button" type="submit" value="INSERISCI" style="background-color:#0F3" name=""> <input id="search-submit" class="button" type="submit" value="ELIMINA" style="background-color:#F30" name="">
-</p>
-<input class="post_status_page" type="hidden" value="all" name="post_status">
-<input class="post_type" type="hidden" value="product" name="post_type">
-<input id="_wpnonce" type="hidden" value="2cac6d312d" name="_wpnonce">
-<input type="hidden" value="post_type" name="_wp_http_referer">
-</form>
-</div>
 
 
 <div  style="width:200px; margin-left:81%; margin-top:auto; ">
@@ -114,19 +99,18 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
 <input type="hidden" value="post_type" name="_wp_http_referer">
 </form>
 </div>
-</div>
 							<h2>VARIANTI</h2>
 							<table width="100%" style="border: 1px solid #000; width: 100%;" cellspacing="0" cellpadding="2">
-								<thead ><th scope="col" style="text-align:left; border: 1px solid #000; padding: 6px;"><?php _e('IMAGE', 'socute'); ?></th>
-										<th scope="col" style="text-align:left; border: 1px solid #000; padding: 6px;"><?php _e('VARIANTE', 'socute'); ?></th>
-										<th scope="col" style="text-align:left; border: 1px solid #000; padding: 6px;"><?php _e('PRODOTTO', 'socute'); ?></th>
-										<th scope="col" style="text-align:left; border: 1px solid #000; padding: 6px;"><?php _e('SKU', 'socute'); ?></th>
-                                        <th scope="col" style="text-align:left; border: 1px solid #000; padding: 6px;"><?php _e('LISTINO', 'socute'); ?></th>
-                                         <th scope="col" style="text-align:left; border: 1px solid #000; padding: 6px;"><?php _e('VENDITA', 'socute'); ?></th>
-                                <th scope="col" style="text-align:left; border: 1px solid #000; padding: 6px;"><?php _e('COLORE', 'socute'); ?></th> 
+								<thead ><th scope="col" style="text-align:left; border: 1px solid #000; padding: 6px;"><?php _e('IMAGE', 'woothemes'); ?></th>
+										<th scope="col" style="text-align:left; border: 1px solid #000; padding: 6px;"><?php _e('VARIANTE', 'woothemes'); ?></th>
+										<th scope="col" style="text-align:left; border: 1px solid #000; padding: 6px;"><?php _e('PRODOTTO', 'woothemes'); ?></th>
+										<th scope="col" style="text-align:left; border: 1px solid #000; padding: 6px;"><?php _e('SKU', 'woothemes'); ?></th>
+                                        <th scope="col" style="text-align:left; border: 1px solid #000; padding: 6px;"><?php _e('LISTINO', 'woothemes'); ?></th>
+                                         <th scope="col" style="text-align:left; border: 1px solid #000; padding: 6px;"><?php _e('VENDITA', 'woothemes'); ?></th>
+                                <th scope="col" style="text-align:left; border: 1px solid #000; padding: 6px;"><?php _e('COLORE', 'woothemes'); ?></th> 
 
-                               <th scope="col" style="text-align:left; border: 1px solid #000; padding: 6px;"><?php _e('TAGLIA', 'socute'); ?></th>
-										<th scope="col" style="text-align:left; border: 1px solid #000; padding: 6px;"><?php _e('STOCK', 'socute'); ?></th>
+                               <th scope="col" style="text-align:left; border: 1px solid #000; padding: 6px;"><?php _e('TAGLIA', 'woothemes'); ?></th>
+										<th scope="col" style="text-align:left; border: 1px solid #000; padding: 6px;"><?php _e('STOCK', 'woothemes'); ?></th>
 									</tr>
 								</thead>
 								<tbody>
@@ -190,16 +174,16 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
                             <table width="100%" style="border: 1px solid #000; width: 100%;" cellspacing="0" cellpadding="2">
 								<thead>
 									<tr>
-                                    <th scope="col" style="text-align:left; border: 1px solid #000; padding: 6px;"><?php _e('IMAGE', 'socute'); ?></th>
-							<th scope="col" style="text-align:left; border: 1px solid #000; padding: 6px;"><?php _e('PRODOTTI', 'socute'); ?></th>
-										<th scope="col" style="text-align:left; border: 1px solid #000; padding: 6px;"><?php _e('SKU', 'socute'); ?></th>
+                                    <th scope="col" style="text-align:left; border: 1px solid #000; padding: 6px;"><?php _e('IMAGE', 'woothemes'); ?></th>
+							<th scope="col" style="text-align:left; border: 1px solid #000; padding: 6px;"><?php _e('PRODOTTI', 'woothemes'); ?></th>
+										<th scope="col" style="text-align:left; border: 1px solid #000; padding: 6px;"><?php _e('SKU', 'woothemes'); ?></th>
                                        
-<th scope="col" style="text-align:left; border: 1px solid #000; padding: 6px;"><?php _e('PRICE', 'socute'); ?></th>
+<th scope="col" style="text-align:left; border: 1px solid #000; padding: 6px;"><?php _e('PRICE', 'woothemes'); ?></th>
 
- <th scope="col" style="text-align:left; border: 1px solid #000; padding: 6px;"><?php _e('TAGLIA', 'socute'); ?></th>
+ <th scope="col" style="text-align:left; border: 1px solid #000; padding: 6px;"><?php _e('TAGLIA', 'woothemes'); ?></th>
 
 
-<th scope="col" style="text-align:left; border: 1px solid #000; padding: 6px;"><?php _e('STOCK', 'socute'); ?></th>
+<th scope="col" style="text-align:left; border: 1px solid #000; padding: 6px;"><?php _e('STOCK', 'woothemes'); ?></th>
 									</tr>
 								</thead>
 								<tbody>
