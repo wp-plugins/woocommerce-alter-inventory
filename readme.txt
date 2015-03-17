@@ -4,12 +4,12 @@ Contributors: Bigbabert
 Donate link: http://www.altertech.it/
 Tags: woocommerce, inventory, product variations
 Requires at least: 3.6.1
-Tested up to: 3.8.1
-Stable tag: 0.8
+Tested up to: 4.2
+Stable tag: 1.2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Woocommerce Inventory is a alternative products display, plugin worked on Wordpress 3.8.1 & Woocommerce 2.0.
+Woocommerce Inventory is a alternative products display, plugin worked on Wordpress 4.1 & Woocommerce 2.2.8.
 
 == Description ==
 
@@ -43,15 +43,18 @@ How install Alter Inventory plugin:
 
 = Why i can’t see attribute for variations? =
 
-To see attribute you must create a predefinite attribute named ’Taglia’ for size & ‘Colore’ for color or change pa_taglia and pa_attribute in the alter-inventory.php file.
+You don’t need care of this the plugin view the attributes and displayed on inventory page.
 
 
 == Screenshots ==
 
-1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif)
+1. This is a screenshot of inventory page.
+
+2. This is a screenshot of report page.
 
 == Changelog ==
-
+= 1.
+= 1.1 =
 = 0.8 =
 * First Release
 
@@ -71,7 +74,7 @@ That's the way:
 * Send a mail to bigbabert@gmail.com with object ‘alterinventory’
 
 == Upgrade notice ==
-
+= 1.1 =
 = 0.8.0 =
 
 First Release
